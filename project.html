@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRCTC Ticket Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Book Ticket</a></li>
+                <li><a href="#">Check PNR</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+ <!-- Hero Section -->
+    <section class="hero">
+        <h1>Book Your Railway Tickets Online</h1>
+        <form>
+            <label for="from">From:</label>
+            <input type="text" id="from" name="from"><br><br>
+            <label for="to">To:</label>
+            <input type="text" id="to" name="to"><br><br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date"><br><br>
+            <button>Search Trains</button>
+        </form>
+    </section>
+
+    <!-- Train Search Results Section -->
+    <section class="search-results">
+        <h2>Available Trains</h2>
+        <table>
+ <thead>
+                <tr>
+                    <th>Train Number</th>
+                    <th>Train Name</th>
+                    <th>Departure Time</th>
+                    <th>Arrival Time</th>
+                    <th>Duration</th>
+                    <th>Book Now</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Train data will be populated here -->
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 IRCTC. All rights reserved.</p>
+    </footer>
+</body>
+</html>
